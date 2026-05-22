@@ -10,13 +10,13 @@ const projects = [
     github: "https://github.com/kaahoza/django-fullstack-Blog-application.git",
     live: "https://django-fullstack-blog-application.vercel.app/",
   },
-  // {
-  //   title: "DevFlow CLI",
-  //   description:
-  //     "An open-source command-line tool that automates development workflows including testing, linting, and deployment pipelines.",
-  //   tech: ["Go", "Docker", "GitHub Actions"],
-  //   github: "https://github.com",
-  // },
+  {
+    title: "Full-Stack Authentication System",
+    description:
+      "A professional, decoupled authentication application featuring a Django REST Framework backend and a **React (Vite) ** frontend. This project demonstrates a robust implementation of user authentication, relational database management with MySQL, and cross-origin resource sharing (CORS)." , 
+    tech: ["React","axios","Python" ,"GitHub Actions"],
+    github: "https://github.com/kaahoza/django-react-auth-system",
+  },
   // {
   //   title: "Artisan Marketplace",
   //   description:
