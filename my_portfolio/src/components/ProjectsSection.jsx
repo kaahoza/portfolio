@@ -17,22 +17,15 @@ const projects = [
     tech: ["React","axios","Python" ,"GitHub Actions"],
     github: "https://github.com/kaahoza/django-react-auth-system",
   },
-  // {
-  //   title: "Artisan Marketplace",
-  //   description:
-  //     "A full-stack e-commerce platform connecting artisans with buyers. Features real-time chat, payments, and a recommendation engine.",
-  //   tech: ["Next.js", "PostgreSQL", "Stripe", "Redis"],
-  //   github: "https://github.com",
-  //   live: "https://example.com",
-  // },
-  // {
-  //   title: "NoteGraph",
-  //   description:
-  //     "A knowledge management app with bi-directional linking and graph visualization. Inspired by Roam Research and Obsidian.",
-  //   tech: ["React", "TypeScript", "SQLite", "Electron"],
-  //   github: "https://github.com",
-  //   live: "https://example.com",
-  // },
+  {
+    title: "Spring boot microservice e-cormmerce",
+    description:
+      "A microservice architecture with Api gateway using spring boot and spring cloud to build an e-commerce application Features real-time chat, payments, and a recommendation engine.",
+    tech: ["", "PostgreSQL", "Stripe", "Redis"],
+    github: "https://github.com/kaahoza/e-commerce-.git",
+    // live: "https://example.com",
+  },
+ 
 ];
 
 const ProjectsSection = () => {
