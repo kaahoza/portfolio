@@ -9,7 +9,7 @@ const skills = [
   },
   {
     category: "Tools & DevOps",
-    items: ["Git", "Docker", "AWS", "CI/CD",],
+    items: ["Git", "Docker",  "CI/CD",],
   },
 ];
 
@@ -18,7 +18,7 @@ const SkillsSection = () => {
     <section id="skills" className="section-padding bg-card/30">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold mb-2">
-          <span className="font-mono text-primary text-lg mr-2">02.</span>
+          <span className="font-mono text-primary text-lg mr-2">03.</span>
           Skills & Technologies
         </h2>
         <div className="w-16 h-0.5 bg-primary/50 mb-10" />
