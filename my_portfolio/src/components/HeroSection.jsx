@@ -43,7 +43,7 @@ const HeroSection = () => {
               <a href="https://github.com/kaahoza" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <FaGithub size={22} />
               </a>
-              <a href="https://www.linkedin.com/in/anele-kanyisa-hozaVanity URL name" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/anele-kanyisa-hoza/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <FaLinkedin size={22} />
               </a>
               <a href="mailto:anele376@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
