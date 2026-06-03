@@ -2,10 +2,17 @@ import { ExternalLink} from "lucide-react";
 import {FaGithub} from "react-icons/fa"
 
 const projects = [
+    {
+    title: "Employee Attendance System",
+    description:
+    "This project demonstrates java basics and fundamentals by building Employee attendance system. It highlights deeper understanding of core features such as variables, loops, conditions, collections and packages.",
+    tech: ["Java", "OOP", "Data Structures"],
+    github: "https://github.com/kaahoza/Java-projects.git",
+  },
   {
     title: "Django Fullstack Blog Application",
     description:
-      "A full-stack blog application built with: Backend: Django + Django REST Framework Frontend: React Auth: JWT (SimpleJWT) Database: PostgreSQL (Render) Deployment: Render (backend) + Vercel (frontend).",
+    "A full-stack blog application built with: Backend: Django + Django REST Framework Frontend: React Auth: JWT (SimpleJWT) Database: PostgreSQL (Render) Deployment: Render (backend) + Vercel (frontend).",
     tech: ["React", "TypeScript", "Django"],
     github: "https://github.com/kaahoza/django-fullstack-Blog-application.git",
     live: "https://django-fullstack-blog-application.vercel.app/",
