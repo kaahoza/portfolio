@@ -1,15 +1,20 @@
 const skills = [
+
   {
-    category: "Frontend",
-    items: ["React", "TypeScript", "Tailwind CSS", "HTML/CSS" ,"Django"],
+    category: "Languages",
+    items: [ "Java 17+", "SQL" ],
   },
   {
-    category: "Backend",
-    items: ["Node.js", "Python", "Java", "PostgreSQL", "MySql", "Redis"],
+    category: "DevsOps and Infrastucture",
+    items: ["Maven","Git/Github", "Docker", "Docker compose",  "CI/CD",],
+  },
+    {
+    category: "Frameworks:",
+    items: ["Spring Boot 3", "Spring MVC", "Spring Data JPA"],
   },
   {
-    category: "Tools & DevOps",
-    items: ["Git", "Docker",  "CI/CD",],
+    category: "Testing & Docs:",
+    items: ["Swagger / OpenAPI", "JUnit"],
   },
 ];
 
@@ -19,7 +24,7 @@ const SkillsSection = () => {
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-3xl font-bold mb-2">
           <span className="font-mono text-primary text-lg mr-2">03.</span>
-          Skills & Technologies
+          Tech Stack & Tooling
         </h2>
         <div className="w-16 h-0.5 bg-primary/50 mb-10" />
 
