@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="container mx-auto relative z-10">
         <div className="max-w-3xl">
           <p className="font-mono text-primary text-sm mb-4 animate-fade-in">
-            Hi, my name is
+            Hi there, I'm 
           </p>
           <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in" style={{ animationDelay: "0.1s" }}>
             Anele Khanyisa Hoza.
@@ -24,9 +24,9 @@ const HeroSection = () => {
             className="text-muted-foreground text-lg max-w-xl mb-10 animate-fade-in"
             style={{ animationDelay: "0.3s" }}
           >
-            I'm a full-stack developer specializing in building exceptional digital
-            experiences. Currently focused on creating accessible, performant web
-            applications.
+            A full-stack developer with a deep focus on building scalable, containerized backend engines. I specialize in 
+            Java ecosystems, microservice orcherstration, and designing clean, intergration ready RESTful APIs.
+            
           </p>
 
           <div

@@ -3,35 +3,13 @@ import {FaGithub} from "react-icons/fa"
 
 const projects = [
     {
-    title: "Employee Attendance System",
+    title: "Catalogue Management System",
     description:
-    "This project demonstrates java basics and fundamentals by building Employee attendance system. It highlights deeper understanding of core features such as variables, loops, conditions, collections and packages.",
-    tech: ["Java", "OOP", "Data Structures"],
-    github: "https://github.com/kaahoza/Java-projects.git",
-  },
-  {
-    title: "Django Fullstack Blog Application",
-    description:
-    "A full-stack blog application built with: Backend: Django + Django REST Framework Frontend: React Auth: JWT (SimpleJWT) Database: PostgreSQL (Render) Deployment: Render (backend) + Vercel (frontend).",
-    tech: ["React", "TypeScript", "Django"],
-    github: "https://github.com/kaahoza/django-fullstack-Blog-application.git",
-    live: "https://django-fullstack-blog-application.vercel.app/",
-  },
-  {
-    title: "Full-Stack Authentication System",
-    description:
-      "A professional, decoupled authentication application featuring a Django REST Framework backend and a **React (Vite) ** frontend. This project demonstrates a robust implementation of user authentication, relational database management with MySQL, and cross-origin resource sharing (CORS)." , 
-    tech: ["React","axios","Python" ,"GitHub Actions"],
-    github: "https://github.com/kaahoza/django-react-auth-system",
-  },
-  {
-    title: "Spring boot microservice e-cormmerce",
-    description:
-      "A microservice architecture with Api gateway using spring boot and spring cloud to build an e-commerce application Features real-time chat, payments, and a recommendation engine.",
-    tech: ["", "PostgreSQL", "Stripe", "Redis"],
+    "A Containerized Spring Boot 3 Rest API featuring isolated Docker bridging networks and interactive Swagger contracts, engineered to act as a robust backend core for modular frontend interface.",
     github: "https://github.com/kaahoza/e-commerce-.git",
-    // live: "https://example.com",
   },
+
+
  
 ];
 
