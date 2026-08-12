@@ -16,6 +16,9 @@ const EducationSection = () => {
              Year - 2017
             </p>
             <p>
+             School - Walter Sisulu University
+            </p>
+            <p>
               Core subjects
             </p>
             <ul>

@@ -2,13 +2,24 @@ import { ExternalLink} from "lucide-react";
 import {FaGithub} from "react-icons/fa"
 
 const projects = [
+   {
+    title: "Employee Management System",
+    description:
+    "A full-featured employee managent system, This applications allows user to add employee, view and mark attendance. admin management, Swagger docs, CI via GitHub Actions, and one-click deployment to Render.",
+    github: "https://github.com/kaahoza/Attendance-Employee-Management.git",
+  },
+  {
+    title: "E-commerce website",
+    description:
+    "A full-featured e-commerce backend: JWT authentication, product catalog with categories, ping cart, checkout/orders, admin management, Swagger docs, CI via GitHub Actions, and one-click deployment to Render.",
+    github: "https://github.com/kaahoza/e-commerce.git",
+  },
     {
     title: "Catalogue Management System",
     description:
     "A Containerized Spring Boot 3 Rest API featuring isolated Docker bridging networks and interactive Swagger contracts, engineered to act as a robust backend core for modular frontend interface.",
-    github: "https://github.com/kaahoza/e-commerce-.git",
+    github: "https://github.com/kaahoza/Catalogue-Management",
   },
-
 
  
 ];
@@ -24,7 +35,7 @@ const ProjectsSection = () => {
         <div className="w-16 h-0.5 bg-primary/50 mb-10" />
 
         <div className="grid md:grid-cols-2 gap-6">
-          {projects.map((project) => (
+          {projects?.map((project) => (
             <div
               key={project.title}
               className="glass-card glow-border p-6 flex flex-col justify-between hover:border-primary/30 transition-colors group"
@@ -51,17 +62,7 @@ const ProjectsSection = () => {
                   {project.description}
                 </p>
               </div>
-              <div className="flex flex-wrap gap-2">
-                <FaGithub size={22} />
-                {project.tech.map((t) => (
-                  <span
-                    key={t}
-                    className="font-mono text-xs px-2 py-1 rounded bg-secondary text-primary"
-                  >
-                    {t}
-                  </span>
-                ))}
-              </div>
+              
             </div>
           ))}
         </div>
