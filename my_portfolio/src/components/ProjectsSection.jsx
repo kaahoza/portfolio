@@ -2,13 +2,30 @@ import { ExternalLink} from "lucide-react";
 import {FaGithub} from "react-icons/fa"
 
 const projects = [
+     {
+    title: "RetailFlow",
+    description:
+    "Backend platform for retail inventory, sales and business intelligence -built with java and spring boot. RetailFlow lets a retail business manage its product catalog and stock levels, process customer orders through a cart-and-checkout flow, and surface operational insights like revenue trends, top-selling products, and low-stock alerts",
+    github: "https://github.com/kaahoza/retailflow.git",
+  },
+   {
+    title: "Employee Management System",
+    description:
+    "A full-featured employee managent system, This applications allows user to add employee, view and mark attendance. admin management, Swagger docs, CI via GitHub Actions, and one-click deployment to Render.",
+    github: "https://github.com/kaahoza/Attendance-Employee-Management.git",
+  },
+  {
+    title: "E-commerce website",
+    description:
+    "A full-featured e-commerce backend: JWT authentication, product catalog with categories, ping cart, checkout/orders, admin management, Swagger docs, CI via GitHub Actions, and one-click deployment to Render.",
+    github: "https://github.com/kaahoza/e-commerce.git",
+  },
     {
     title: "Catalogue Management System",
     description:
     "A Containerized Spring Boot 3 Rest API featuring isolated Docker bridging networks and interactive Swagger contracts, engineered to act as a robust backend core for modular frontend interface.",
-    github: "https://github.com/kaahoza/e-commerce-.git",
+    github: "https://github.com/kaahoza/Catalogue-Management",
   },
-
 
  
 ];
@@ -51,17 +68,7 @@ const ProjectsSection = () => {
                   {project.description}
                 </p>
               </div>
-              <div className="flex flex-wrap gap-2">
-                <FaGithub size={22} />
-                {project.tech.map((t) => (
-                  <span
-                    key={t}
-                    className="font-mono text-xs px-2 py-1 rounded bg-secondary text-primary"
-                  >
-                    {t}
-                  </span>
-                ))}
-              </div>
+              
             </div>
           ))}
         </div>

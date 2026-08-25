@@ -30,7 +30,7 @@ const AboutSection = () => {
 
           <div className="glass-card glow-border p-6 flex flex-col items-center justify-center gap-4">
             <div className="w-32 h-32 rounded-full bg-secondary flex items-center justify-center">
-              <img src={logo} alt="profile image" srcset="" />
+              <img src={logo} alt="profile image"  />
             </div>
             <p className="font-mono text-sm text-primary">Full-Stack Developer</p>
           </div>
