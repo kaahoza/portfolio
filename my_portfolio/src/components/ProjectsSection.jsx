@@ -2,6 +2,12 @@ import { ExternalLink} from "lucide-react";
 import {FaGithub} from "react-icons/fa"
 
 const projects = [
+     {
+    title: "RetailFlow",
+    description:
+    "Backend platform for retail inventory, sales and business intelligence -built with java and spring boot. RetailFlow lets a retail business manage its product catalog and stock levels, process customer orders through a cart-and-checkout flow, and surface operational insights like revenue trends, top-selling products, and low-stock alerts",
+    github: "https://github.com/kaahoza/retailflow.git",
+  },
    {
     title: "Employee Management System",
     description:
@@ -35,7 +41,7 @@ const ProjectsSection = () => {
         <div className="w-16 h-0.5 bg-primary/50 mb-10" />
 
         <div className="grid md:grid-cols-2 gap-6">
-          {projects?.map((project) => (
+          {projects.map((project) => (
             <div
               key={project.title}
               className="glass-card glow-border p-6 flex flex-col justify-between hover:border-primary/30 transition-colors group"
